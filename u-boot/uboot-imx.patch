@@ -1149,6 +1149,7 @@ diff -Naur u-boot-imx/include/configs/tibidabo.h modificato-u-boot-imx/include/c
 +#define CONFIG_SYS_TEXT_BASE                    0x17800000
 +
 +#define CONFIG_EXTRA_ENV_SETTINGS \
++    "fdt_high=0xffffffff\0" \
 +    "ethaddr=" FAKE_MAC_ADDRESS "\0" \
 +    "ipaddr=" BOARD_IP_ADDRESS "\0" \
 +    "serverip=" TFTP_SERVER_IP_ADDRESS "\0" \
