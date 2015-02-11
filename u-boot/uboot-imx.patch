@@ -942,7 +942,7 @@ diff -Naur u-boot-imx/drivers/net/phy/mv88e61xx.c modificato-u-boot-imx/drivers/
 diff -Naur u-boot-imx/include/configs/tibidabo.h modificato-u-boot-imx/include/configs/tibidabo.h
 --- u-boot-imx/include/configs/tibidabo.h	1970-01-01 01:00:00.000000000 +0100
 +++ modificato-u-boot-imx/include/configs/tibidabo.h	2015-02-04 17:55:59.273845924 +0100
-@@ -0,0 +1,284 @@
+@@ -0,0 +1,287 @@
 +/*
 + * Copyright (C) 2012 Freescale Semiconductor, Inc.
 + * 
