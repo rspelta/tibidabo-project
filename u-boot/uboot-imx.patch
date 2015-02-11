@@ -1145,7 +1145,7 @@ diff -Naur u-boot-imx/include/configs/tibidabo.h modificato-u-boot-imx/include/c
 +#define CONFIG_CMD_BOOTZ
 +#define CONFIG_BOOTDELAY                        2
 +#define CONFIG_LOADADDR                         0x12000000
-+#define CONFIG_FDT_LOADADDR                     0x18000000
++#define CONFIG_FDT_LOADADDR                     "0x18000000"
 +#define CONFIG_SYS_LOAD_ADDR                    CONFIG_LOADADDR
 +#define CONFIG_SYS_TEXT_BASE                    0x17800000
 +
